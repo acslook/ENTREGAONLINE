@@ -127,7 +127,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Css\Style.css" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Imagem\1398872870_Maddison-tenta-seguir-o-ritmo-de-Karlo-no-centro-de-SP.jpg" />
+    <Content Include="Imagem\1410245174_678128-social-facebook-32.png" />
+    <Content Include="Imagem\1410245298_social_8-32.png" />
+    <Content Include="Imagem\1410245518_social_9-32.png" />
+    <Content Include="Imagem\1410245563_google-32.png" />
+    <Content Include="Imagem\1410245583_social_7-32.png" />
+    <Content Include="Imagem\images.jpg" />
+    <Content Include="Imagem\pont.jpeg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.0.js" />
@@ -152,6 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ONESOFT.EntregaOnline.Common\ONESOFT.EntregaOnline.Common.csproj">
+      <Project>{2d6cd362-7bd0-4831-87a3-de34a7ed11bc}</Project>
+      <Name>ONESOFT.EntregaOnline.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
