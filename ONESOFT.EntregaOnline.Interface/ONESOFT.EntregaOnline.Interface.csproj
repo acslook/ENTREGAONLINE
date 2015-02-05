@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UsuarioLoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -128,7 +129,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Css\Style.css" />
+    <Content Include="Css\StyleLogin.css" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Imagem\10961744_332130080326484_417361958_n.jpg" />
     <Content Include="Imagem\1398872870_Maddison-tenta-seguir-o-ritmo-de-Karlo-no-centro-de-SP.jpg" />
     <Content Include="Imagem\1410245174_678128-social-facebook-32.png" />
     <Content Include="Imagem\1410245298_social_8-32.png" />
@@ -151,6 +154,9 @@
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\jquery-1.9.0.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LayoutLogin.cshtml" />
+    <Content Include="Views\UsuarioLogin\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -158,9 +164,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ONESOFT.EntregaOnline.Common\ONESOFT.EntregaOnline.Common.csproj">

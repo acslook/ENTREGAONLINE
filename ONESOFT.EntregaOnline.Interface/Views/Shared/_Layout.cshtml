@@ -3,7 +3,8 @@
 <html lang="en">
 
 <head>
-    <title>Motoboy Online</title>    
+    <title>Motoboy Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <script src="~/Scripts/bootstrap.js"></script>
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-  
+
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -32,17 +33,17 @@
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#contact">Contato</a></li>
                     @*<li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>*@
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>*@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     @*<li><a href="../navbar/">Default</a></li>*@
@@ -67,14 +68,13 @@
             </p>
         </div>
     </div> <!-- /container -->
-
     <!-- Beneficios-->
     @*<div class="container">
-        <nav class="navbar navbar-default" role="navigation">
-            <br />
-            <h1><strong>Os beneficios</strong> </h1>
-        </nav>
-    </div>*@
+            <nav class="navbar navbar-default" role="navigation">
+                <br />
+                <h1><strong>Os beneficios</strong> </h1>
+            </nav>
+        </div>*@
     <div class="container">
         <ul class="breadcrumb">
             <li><a href="#"><h1><strong>Os beneficios</strong> </h1></a> <span class="divider"></span></li>
@@ -84,7 +84,7 @@
 
 
 
-      <div class="container">
+    <div class="container">
         <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
@@ -108,11 +108,11 @@
     <br /><br />
     <!-- Nossos clientes -->
     @*<div class="container">
-        <nav class="navbar navbar-default" role="navigation">
-            <br />
-            <h1><strong>Empresas que utilizam nossos serviços.</strong> </h1>
-        </nav>
-    </div>*@
+            <nav class="navbar navbar-default" role="navigation">
+                <br />
+                <h1><strong>Empresas que utilizam nossos serviços.</strong> </h1>
+            </nav>
+        </div>*@
     <div class="container">
         <ul class="breadcrumb">
             <li><a href="#"><h1><strong>Empresas que utilizam nossos serviços.</strong> </h1></a> <span class="divider"></span></li>
@@ -133,7 +133,7 @@
     <footer>
         <nav class="navbar navbar-default">
             <div class="container">
-                <div class="navbar-header">                    
+                <div class="navbar-header">
                     <a class="navbar-brand" href="#">&copy;2015 - <strong> Todos os direitos reservados a Rocha Express </strong></a>
                     <p>
                         Rua da consolação, 12909<br />
@@ -142,10 +142,20 @@
                         5511-5555-4400 / 97965-0001<br />
                         <a>contato@rochaexpress.com.br</a>
                     </p>
-                </div>                
+                </div>
             </div>
         </nav>
     </footer>
     <!-- Fim do Rodapé -->
+
+
+    <div class="container-fluid" id="pcont">
+        <div class="cl-mcont" style="z-index: 99999999999">
+            @RenderBody()
+            <!-- Content goes here -->
+        </div>
+    </div>
+
+
 </body>
 </html>
